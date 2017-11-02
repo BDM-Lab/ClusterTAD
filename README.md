@@ -20,10 +20,11 @@ Source Code
 	
 	1.1 Dependency: 
 	
-		1.1.1	To perform clustering, ClusterTAD relies on the weka library. Import the "weka.jar" file in the lib folder or download weka from here: https://www.cs.waikato.ac.nz/ml/weka/downloading.html
-		1.1.2	Weka version "weka-3-7-12" was used in this work.
+		1.1.1	To perform clustering, ClusterTAD relies on the weka library. Import the "weka.jar" file in the lib folder. Weka version "weka-3-7-12" was used in this work.
 		
-	1.2 Test ClusterTAD.java => Test with the 30x30_data.txt in the data directory.
+	1.2 Test ClusterTAD.java
+			
+		Test with the 30x30_data.txt in the data directory.
 		1.2.1	Place the "data" folder in same directory as the ClusterTAD.java file. [data folder contains your Input data]
 		1.2.2 	Run the program :  It should print the usage information.
 		1.2.3	Results will be found in the "Output" folder
@@ -34,6 +35,7 @@ Source Code
 		---------------------
 		
 	1.3 Change variable values in the ClusterTAD.java file
+	
 		1.3.1	change variable "name" to the Input data name
 		1.3.2	change variable "Resolution" to the Input data Resolution		
 		1.3.3	specify the minimum TAD size : change variable "min_TAD_size" (optional)
@@ -46,6 +48,7 @@ Source Code
 2.	MATLAB Code
 
 	2.1 Test ClusterTAD_main.m => Test with the 30x30_data.txt in the data directory.
+	
 		2.1.1	Place the "data" folder in same directory as the ClusterTAD_main file. [data folder contains your Input data]
 		2.1.2 	Run the program :  It should print the usage information.
 		2.1.3	Results will be found in a folder named after the filename. In this case, "30x30_data.txt"
