@@ -19,6 +19,7 @@ Source Code
 1.	Java Code
 	
 	1.1 Dependency: 
+	
 		1.1.1	To perform clustering, ClusterTAD relies on the weka library. Import the "weka.jar" file in the lib folder or download weka from here: https://www.cs.waikato.ac.nz/ml/weka/downloading.html
 		1.1.2	Weka version "weka-3-7-12" was used in this work.
 		
