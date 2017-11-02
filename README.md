@@ -30,12 +30,9 @@ Source Code
 		1.2.2 	Run the program :  It should print the usage information.
 		1.2.3	Results will be found in the "Output" folder
 		1.2.4	The TAD with the Best quality score will be in the format: "BestTAD_'filename'_K='otherdetails'.txt". For instance for this example: BestTAD_30x30_data_K=4.txt
+					
 		
-			---------------------
-			Using New Dataset
-			---------------------
-		
-	1.3 Change variable values in the ClusterTAD.java file
+	1.3 For a new dataset change variable values in the ClusterTAD.java file
 	
 		1.3.1	change variable "name" to the Input data name
 		1.3.2	change variable "Resolution" to the Input data Resolution		
@@ -56,11 +53,9 @@ Source Code
 		2.1.4	The name of the recommended TAD file will be printed out, and will also found in a Readme file in the Quality sub-directory (Quality/).
 		2.1.5	All the TADs generated will be found in the TAD sub-directory (TADs/)
 		
-			---------------------
-			Using New Dataset
-			---------------------
+	
 		
-	2.2 Change variable values in the ClusterTAD_main.m file
+	2.2 For a new dataset change variable values in the ClusterTAD_main.m file
 	
 		2.2.1	change variable "filepath" to the Input data file path	
 		2.2.2	change variable "name" to the Input data name
