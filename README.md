@@ -16,13 +16,15 @@ Our input matrix file format is the same as normalized matrix in Bing Ren's Lab 
 Source Code
 -----------------------------------------------------------
 
+-----------------------------------------------------------
 1.	Java Code
+-----------------------------------------------------------
 	
-	1.1 	Dependency: 
+	1.1 Dependency: 
 	
 		1.1.1	To perform clustering, ClusterTAD relies on the weka library. Import the "weka.jar" file in the lib folder. Weka version "weka-3-7-12" was used in this work.
 		
-	1.2 	Test ClusterTAD.java			
+	1.2 Test ClusterTAD.java			
 			
 		Test with the 30x30_data.txt file in the data directory.
 		
@@ -32,7 +34,7 @@ Source Code
 		1.2.4	The TAD with the Best quality score will be in the format: "BestTAD_'filename'_K='otherdetails'.txt". For instance for this example: BestTAD_30x30_data_K=4.txt
 					
 		
-	1.3 	For a new dataset change variable values in the ClusterTAD.java file
+	1.3 For a new dataset change variable values in the ClusterTAD.java file
 	
 		1.3.1	change variable "name" to the Input data name
 		1.3.2	change variable "Resolution" to the Input data Resolution		
