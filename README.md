@@ -1,5 +1,6 @@
 # ClusterTAD
-A clustering method for identifying topologically associated domains (TADs) from Hi-C data
+
+An unsupervised machine learning approach to detecting topologically associated domains of chromosomes from Hi-C data
 
 -----------------------------------------------------------
 Hi-C Data used in this study
@@ -82,10 +83,15 @@ Source Code
 -----------------------------------------------------------
 TAD identified by ClusterTAD
 -----------------------------------------------------------
+
 For two cell types(mESC and mouse cortex), we identified topological domains in each cell type using ClusterTAD. 
+
 The TADs identified at each clustering iteration are labelled as follows:
+
 ClusterTAD Clustering Iteration 1					 => ClusterTAD_1
+
 ClusterTAD Clustering Iteration 2 (Reclustering 1)  => ClusterTAD_2 (Recommended)
+
 ClusterTAD Clustering Iteration 3 (Reclustering 1)	 => ClusterTAD_3
 
 Download the TADs extracted from the TADs folder. 
