@@ -88,7 +88,7 @@ For two cell types(mESC and mouse cortex), we identified topological domains in 
 
 The TADs identified at each clustering iteration are labelled as follows:
 
-	a)	ClusterTAD Clustering Iteration 1	: ClusterTAD_1
+	a)	ClusterTAD Clustering Iteration 1 : ClusterTAD_1
 	b)	ClusterTAD Clustering Iteration 2 (Reclustering 1) : ClusterTAD_2 (Recommended)
 	c)	ClusterTAD Clustering Iteration 3 (Reclustering 1) : ClusterTAD_3
 
@@ -101,11 +101,16 @@ Oluwatosin Oluwadare and Dr. Jianlin Cheng (PI)
 
 please cite :
 
-Contact : 
-								Jianlin Cheng,Professor
-			Director of Bioinformatics, Data Mining, and Machine Learning Lab (BDM) 
-							Department of Computer Science,
-						University of Missouri, Columbia, MO
-						Phone: 573-882-7306		Fax: 573-882-8318
-							Email: chengji@missouri.edu
+	Contact : 
+									Jianlin Cheng,Professor
+									
+				Director of Bioinformatics, Data Mining, and Machine Learning Lab (BDM)
+				
+								Department of Computer Science,
+								
+							University of Missouri, Columbia, MO
+							
+							Phone: 573-882-7306		Fax: 573-882-8318
+							
+								Email: chengji@missouri.edu
 
