@@ -88,11 +88,9 @@ For two cell types(mESC and mouse cortex), we identified topological domains in 
 
 The TADs identified at each clustering iteration are labelled as follows:
 
-ClusterTAD Clustering Iteration 1					 => ClusterTAD_1
-
-ClusterTAD Clustering Iteration 2 (Reclustering 1)  => ClusterTAD_2 (Recommended)
-
-ClusterTAD Clustering Iteration 3 (Reclustering 1)	 => ClusterTAD_3
+ClusterTAD Clustering Iteration 1	: ClusterTAD_1
+ClusterTAD Clustering Iteration 2 (Reclustering 1) : ClusterTAD_2 (Recommended)
+ClusterTAD Clustering Iteration 3 (Reclustering 1) : ClusterTAD_3
 
 Download the TADs extracted from the TADs folder. 
 
