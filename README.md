@@ -63,7 +63,7 @@ Source Code
 	
 		2.2.1	change variable "filepath" to the Input data file path	
 		2.2.2	change variable "name" to the Input data name
-		2.2.3	change variable "chromo" to the chromosome data name
+		2.2.3	change variable "chromo" to the chromosome data name (can be same as Input data name)
 		2.2.4	change variable "Reso" to the Input data Resolution		
 		2.2.5	change variable "Option" to specify  the  K finding method. if option == 0, use rough estimate and if option == 1, use elbow method (Read about this in our manuscript)
 		2.2.6	specify the maximum TAD size : change variable "Max_TADsize" (optional)
