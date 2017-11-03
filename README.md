@@ -100,17 +100,5 @@ Authors
 Oluwatosin Oluwadare and Dr. Jianlin Cheng (PI)
 
 please cite :
-
-	Contact : 
-									Jianlin Cheng,Professor
-									
-				Director of Bioinformatics, Data Mining, and Machine Learning Lab (BDM)
-				
-								Department of Computer Science,
-								
-							University of Missouri, Columbia, MO
-							
-							Phone: 573-882-7306		Fax: 573-882-8318
-							
-								Email: chengji@missouri.edu
-
+	
+-----------------------------------------------------------
