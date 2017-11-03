@@ -48,8 +48,10 @@ Source Code
 -----------------------------------------------------------		
 2.	MATLAB Code
 -----------------------------------------------------------
-	2.1 Test ClusterTAD_main.m => Test with the 30x30_data.txt in the data directory.
+	2.1 Test ClusterTAD_main.m
 	
+		Test with the 30x30_data.txt in the data directory.
+		
 		2.1.1	Place the "data" folder in same directory as the ClusterTAD_main file. [data folder contains your Input data]
 		2.1.2 	Run the program :  It should print the usage information.
 		2.1.3	Results will be found in a folder named after the filename. In this case, "30x30_data.txt"
