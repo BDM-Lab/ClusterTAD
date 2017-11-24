@@ -42,15 +42,16 @@ The input to ClusterTAD is a tab seperated N by N intra-chromosomal contact matr
 
 **4.	Usage:**
 -----------------------------------------------------------
-To run the tool type, java -jar ClusterTAD.jar **Input_Matrix_file**  **Matrix_Resolution** 
+To run the tool type: 	 **java -jar ClusterTAD.jar Input_Matrix_file Matrix_Resolution** 
 
 Parameters are as follow:
  *  **Input_Matrix_file** :  A tab(\t) seperated N by N intra-chromosomal Hi-C contact matrix.
  *  **Matrix_Resolution** :  Contact Matrix Resolutions
 	
-other parameters : java -jar ClusterTAD.jar Input_Matrix_file Matrix_Resolution **Number_of_Cluster_SearchWindow** **Min_TAD_size** **Max_TAD_size**
+other parameters : 
+					**java -jar ClusterTAD.jar Input_Matrix_file Matrix_Resolution Number_of_Cluster_SearchWindow Min_TAD_size Max_TAD_size**
 	
- *  **Number_of_Cluster_SearchWindow** : The window to add to the rought K estimate, The default = 3 [Minimum = 1 and Maximum = 10)
+ *  **Number_of_Cluster_SearchWindow** : The window to add to the rough K estimate, The default = 3 [Minimum = 1 and Maximum = 10)
  *  **Min_TAD_size(optional)**	:  Defines the  Minimum TAD size. The default is 120KB
  *  **Max_TAD_size(optional)** : Defines the  Maximum TAD size. The default is 800KB. 
 
@@ -70,11 +71,11 @@ ClusterTAD produces 2 folders in Output folder:
  *  Contains a .txt file of the list of Quality scores, file name = [nameofinputfile]_TAD_QualityScore_List
 
 
-**5. Disclaimer**
+**6. Disclaimer**
 -----------------------------------------------------------
 The executable software and the source code of LorDG is distributed free of charge as it is to any non-commercial users. The authors hold no liabilities to the performance of the program.
 
-**6. Citations**
+**7. Citations**
 -----------------------------------------------------------
 Oluwadare, Oluwatosin, and Jianlin Cheng. "ClusterTAD: an unsupervised machine learning approach to detecting topologically associated domains of chromosomes from Hi-C data." BMC bioinformatics 18.1 (2017): 480.
 	
