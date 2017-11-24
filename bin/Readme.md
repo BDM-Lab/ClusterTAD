@@ -8,7 +8,7 @@
 
 
 Parameters are as follow:
- *  **Input_Matrix_file** :  A tab(\t) seperated N by N intra-chromosomal Hi-C contact matrix.
+ *  **Input_Matrix_file** :  A tab seperated N by N intra-chromosomal Hi-C contact matrix.
  *  **Matrix_Resolution** :  Contact Matrix Resolutions
 	
 other parameters : 

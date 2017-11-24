@@ -8,7 +8,7 @@
 ----------------------------------------------------------------------
 
 **Developer:** <br />
-		 Oluwatosin Oluwadare <br />
+		 &nbsp;Oluwatosin Oluwadare <br />
 		 Department of Computer Science <br />
 		 University of Missouri, Columbia <br />
 		 Email: oeow39@mail.missouri.edu 
