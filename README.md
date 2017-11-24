@@ -2,7 +2,7 @@
 
 **Bioinformatics, Data Mining, Machine Learning (BDM) Laboratory,**
 
-**University of Missouri, Columbia MO 65211 **
+**University of Missouri, Columbia MO 65211**
 
 
 **Developer:** 
