@@ -31,5 +31,5 @@ MATLAB Code
 * Readme_Recluster'filename'.txt 	=> ClusterTAD Clustering Iteration 2
 * Readme_Recluster2'filename'.txt => ClusterTAD Clustering Iteration 3
 
-6 The name of the recommended TAD file  printed out in point-'2.4' above will be the maximum quality score of the 3 scores in point-'2.5'
+**6. The name of the recommended TAD file  printed out in point-'2.4' above will be the maximum quality score of the 3 scores in point-'2.5'**
 		
