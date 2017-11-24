@@ -11,7 +11,7 @@ Parameters are as follow:
  *  **Input_Matrix_file** :  A tab seperated N by N intra-chromosomal Hi-C contact matrix.
  *  **Matrix_Resolution** :  Contact Matrix Resolutions
 	
-other parameters : 
+other parameters : <br />
 					**java -jar ClusterTAD.jar Input_Matrix_file Matrix_Resolution Number_of_Cluster_SearchWindow Min_TAD_size Max_TAD_size**
 	
  *  **Number_of_Cluster_SearchWindow(Optional)** : The window to add to the rough K estimate, The default = 3 [Minimum = 1 and Maximum = 10)
