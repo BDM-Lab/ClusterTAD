@@ -4,7 +4,7 @@
 **Bioinformatics, Data Mining, Machine Learning (BDM) Laboratory,**
 
 **University of Missouri, Columbia MO 65211**
---------------------------------------------------------------------
+
 
 **Developer:** 
 
@@ -20,7 +20,7 @@
 		 University of Missouri, Columbia 
 		 Email: chengji@missouri.edu 
 	 
-	
+--------------------------------------------------------------------	
 
 **1.	Content of folders:**
 -----------------------------------------------------------	
