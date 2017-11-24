@@ -1,2 +1,2 @@
-The data folder contains some same sample data. <br />
-The Output folder contains the output generated for each of the data
+The data folder contains some sample dataset. <br />
+The Output folder contains the output generated for each of the dataset
