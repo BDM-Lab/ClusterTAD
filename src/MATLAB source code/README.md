@@ -10,7 +10,7 @@
 		Test with the 30x30_data.txt in the data directory.
 		
 		2.1.1	Place the "data" folder in same directory as the ClusterTAD_main file. [data folder contains your Input data]
-		2.1.2 	Run the program :  It should print the usage information.
+		2.1.2 	Execute the program :  It should print the usage information.
 		2.1.3	Results will be found in a folder named after the filename. In this case, "30x30_data.txt"
 		2.1.4	The name of the recommended TAD file will be printed out, and will also found in a Readme file in the Quality sub-directory (Quality/).
 		2.1.5	All the TADs generated will be found in the TAD sub-directory (TADs/)
