@@ -14,7 +14,7 @@ Parameters are as follow:
 - To run the program using specified parameters, open command line and type: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; java -jar ClusterTAD.jar Input_Matrix_file Matrix_Resolution Number_of_Cluster_SearchWindow Min_TAD_size Max_TAD_size
 
-other Parameters are as follow: <br />		
+other Parameters are as follow: 	
  *  **Number_of_Cluster_SearchWindow(Optional)** : The window to add to the rough K estimate, The default = 3 [Minimum = 1 and Maximum = 10)
  *  **Min_TAD_size(optional)**	:  Defines the  Minimum TAD size. The default is 120000[120KB].
  *  **Max_TAD_size(optional)** : Defines the  Maximum TAD size. The default is 800000[800KB]. 
@@ -34,4 +34,4 @@ ClusterTAD produces 2 folders in Output folder:
 **2.	TADs:**
  *	Contains the *.txt* files listing the TADs extracted from each clustering and reclustering done
  *	Contains the Best TAD identified based on the Quality score, labeled as "BestTAD_[nameofinputfile]_K=.txt" = BestTAD_30x30_data_K=4.txt
- *  Contains a *.txt* file which contains a list of the extracted TAD Quality scores,, file name = [nameofinputfile]_TAD_QualityScore_List = 30x30_data_TAD_QualityScore_List.txt
+ *  Contains a *.txt* file which contains a list of the extracted TAD Quality scores, file name = [nameofinputfile]_TAD_QualityScore_List = 30x30_data_TAD_QualityScore_List.txt
