@@ -14,7 +14,7 @@ Parameters are as follow:
 other parameters : 
 					**java -jar ClusterTAD.jar Input_Matrix_file Matrix_Resolution Number_of_Cluster_SearchWindow Min_TAD_size Max_TAD_size**
 	
- *  **Number_of_Cluster_SearchWindow** : The window to add to the rough K estimate, The default = 3 [Minimum = 1 and Maximum = 10)
+ *  **Number_of_Cluster_SearchWindow(Optional)** : The window to add to the rough K estimate, The default = 3 [Minimum = 1 and Maximum = 10)
  *  **Min_TAD_size(optional)**	:  Defines the  Minimum TAD size. The default is 120KB
  *  **Max_TAD_size(optional)** : Defines the  Maximum TAD size. The default is 800KB. 
 	
