@@ -8,24 +8,24 @@
 ----------------------------------------------------------------------
 
 **Developer:** <br />
-		 &nbsp;Oluwatosin Oluwadare <br />
-		 Department of Computer Science <br />
-		 University of Missouri, Columbia <br />
-		 Email: oeow39@mail.missouri.edu 
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oluwatosin Oluwadare <br />
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science <br />
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Missouri, Columbia <br />
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: oeow39@mail.missouri.edu 
 
 **Contact:** <br />
-		 Jianlin Cheng, PhD <br />
-		 Department of Computer Science <br />
-		 University of Missouri, Columbia <br />
-		 Email: chengji@missouri.edu 
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jianlin Cheng, PhD <br />
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science <br />
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Missouri, Columbia <br />
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: chengji@missouri.edu 
 	 
 --------------------------------------------------------------------	
 
 **1.	Content of folders:**
 -----------------------------------------------------------	
-* bin: contains java executable file 
+* bin: contains Java executable file 
 * examples: contains example data and outputs generated from ClusterTAD for these datasets 
-* src: ClusterTAD **java** and **MATLAB** source codes
+* src: ClusterTAD **Java** and **MATLAB** source codes
 * TADs: contains identified topological domains for two mESC and mouse cortex cell type using ClusterTAD
 
 
@@ -62,9 +62,9 @@ ClusterTAD produces 2 folders in Output folder:
  * Contains a .txt file that contains the cluster assignment for the diagonal for all the K values considered
  
 **5.2.	TADs:** 
- *	Contains the .txt file listing the TADs extracted from each clustering and reclustering done.
+ *	Contains the *.txt* file listing the TADs extracted from each clustering and reclustering done.
  *	Contains the Best TAD identified based on the Quality score, labeled as "BestTAD_[nameofinputfile]_K=.txt".
- *  Contains a .txt file of the list of Quality scores, file name = [nameofinputfile]_TAD_QualityScore_List.
+ *  Contains a *.txt* file of the list of Quality scores, file name = [nameofinputfile]_TAD_QualityScore_List.
 
 
 **6. Disclaimer**
