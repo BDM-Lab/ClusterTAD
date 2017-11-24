@@ -1,23 +1,24 @@
+------------------------------------------------------------------------------------------------------------------------------------
 # ClusterTAD : An unsupervised machine learning approach to detecting topologically associated domains of chromosomes from Hi-C data
-
+------------------------------------------------------------------------------------------------------------------------------------
 **Bioinformatics, Data Mining, Machine Learning (BDM) Laboratory,**
 
 **University of Missouri, Columbia MO 65211**
-
+--------------------------------------------------------------------
 
 **Developer:** 
 
-	 Oluwatosin Oluwadare 
-	 Department of Computer Science 
-	 University of Missouri, Columbia 
-	 Email: oeow39@mail.missouri.edu 
+		 Oluwatosin Oluwadare 
+		 Department of Computer Science 
+		 University of Missouri, Columbia 
+		 Email: oeow39@mail.missouri.edu 
 
 **Contact:** 
 
-	 Jianlin Cheng, PhD 
-	 Department of Computer Science 
-	 University of Missouri, Columbia 
-	 Email: chengji@missouri.edu 
+		 Jianlin Cheng, PhD 
+		 Department of Computer Science 
+		 University of Missouri, Columbia 
+		 Email: chengji@missouri.edu 
 	 
 	
 
@@ -25,7 +26,7 @@
 -----------------------------------------------------------	
 * bin: contains executable files 
 * examples: contains example data and outputs generated from ClusterTAD for these datasets 
-* src: ClusterTAD java and MATLAB source codes
+* src: ClusterTAD **java** and **MATLAB** source codes
 * TADs: contains identified topological domains for two mESC and mouse cortex cell type using ClusterTAD
 
 
@@ -42,13 +43,17 @@ The input to ClusterTAD is a tab seperated N by N intra-chromosomal contact matr
 
 **4.	Usage:**
 -----------------------------------------------------------
+**4.1. 	Java:**
 To run the tool type: 	 **java -jar ClusterTAD.jar Input_Matrix_file Matrix_Resolution** 
 
 Parameters are as follow:
  *  **Input_Matrix_file** :  A tab(\t) seperated N by N intra-chromosomal Hi-C contact matrix.
  *  **Matrix_Resolution** :  Contact Matrix Resolutions
 
+**4.1. 	MATLAB:**
 
+Instructions on how to run the MATLAB source code is given here */src/MATLAB source code/*
+ 
 See in /examples/ for sample files
 
 
@@ -56,9 +61,10 @@ See in /examples/ for sample files
 -----------------------------------------------------------
 ClusterTAD produces 2 folders in Output folder:
 
-**1. 	Clusters:**
+**5.1. 	Clusters:**
  * Contains a .txt file that contains the cluster assignment for the diagonal for all the K values considered
-**2.	TADs:** 
+ 
+**5.2.	TADs:** 
  *	Contains the .txt file listing the TADs extracted from each clustering and reclustering done.
  *	Contains the Best TAD identified based on the Quality score, labeled as "BestTAD_[nameofinputfile]_K=.txt".
  *  Contains a .txt file of the list of Quality scores, file name = [nameofinputfile]_TAD_QualityScore_List.
