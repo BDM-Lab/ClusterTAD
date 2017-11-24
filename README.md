@@ -6,15 +6,14 @@
 **University of Missouri, Columbia MO 65211**
 
 ----------------------------------------------------------------------
-**Developer:** 
 
+**Developer:** 
 		 Oluwatosin Oluwadare 
 		 Department of Computer Science 
 		 University of Missouri, Columbia 
 		 Email: oeow39@mail.missouri.edu 
 
 **Contact:** 
-
 		 Jianlin Cheng, PhD 
 		 Department of Computer Science 
 		 University of Missouri, Columbia 
