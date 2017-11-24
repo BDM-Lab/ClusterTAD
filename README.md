@@ -59,12 +59,12 @@ Instructions on how to run the MATLAB source code is given here **_/src/MATLAB s
 ClusterTAD produces 2 folders in Output folder:
 
 **5.1. 	Clusters:**
- * Contains a .txt file that contains the cluster assignment for the diagonal for all the K values considered
+ * Contains a *.txt* file that contains the cluster assignment for the diagonal for all the K values considered
  
 **5.2.	TADs:** 
- *	Contains the *.txt* file listing the TADs extracted from each clustering and reclustering done.
+ *	Contains the *.txt* files listing the TADs extracted from each clustering and reclustering done.
  *	Contains the Best TAD identified based on the Quality score, labeled as "BestTAD_[nameofinputfile]_K=.txt".
- *  Contains a *.txt* file of the list of Quality scores, file name = [nameofinputfile]_TAD_QualityScore_List.
+ *  Contains a *.txt* file which contains a list of the extracted TAD Quality scores, file name = [nameofinputfile]_TAD_QualityScore_List.
 
 
 **6. Disclaimer**
