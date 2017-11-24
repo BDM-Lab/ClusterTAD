@@ -42,16 +42,15 @@ The input to ClusterTAD is a tab seperated N by N intra-chromosomal contact matr
 
 **4.	Usage:**
 -----------------------------------------------------------
-**4.1. 	Java:**
+**4.1. 	Java:** <br />
 To run the tool type: 	 **java -jar ClusterTAD.jar Input_Matrix_file Matrix_Resolution** 
 
 Parameters are as follow:
  *  **Input_Matrix_file** :  A tab(\t) seperated N by N intra-chromosomal Hi-C contact matrix.
  *  **Matrix_Resolution** :  Contact Matrix Resolutions
 
-**4.1. 	MATLAB:**
-
-Instructions on how to run the MATLAB source code is given here */src/MATLAB source code/*
+**4.2s. MATLAB:**<br />
+Instructions on how to run the MATLAB source code is given here **_/src/MATLAB source code/_**
  
 See in /examples/ for sample files
 
