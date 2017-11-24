@@ -13,11 +13,11 @@ MATLAB Code
 	
 **2. For a new dataset change variable values in the ClusterTAD_main.m file**
 
-* change variable "filepath" to the Input data file path	
-* change variable "name" to the Input data name
-* change variable "chromo" to the chromosome data name (can be same as Input data name)
-* change variable "Reso" to the Input data Resolution		
-* change variable "Option" to specify  the  K finding method. if option == 0, use rough estimate and if option == 1, use elbow method (Read about this in our manuscript)
+* change variable **"filepath"** to the Input data file path	
+* change variable **"name"** to the Input data name
+* change variable **"chromo"** to the chromosome data name (can be same as Input data name)
+* change variable **"Reso"** to the Input data Resolution		
+* change variable **"Option"** to specify  the  K finding method. if option == 0, use rough estimate and if option == 1, use elbow method (Read about this in our manuscript)
 * specify the maximum TAD size : change variable "Max_TADsize" (optional)
 
 
@@ -25,7 +25,7 @@ MATLAB Code
 
 **4. The name of the identified Best TAD file will be printed out.**
 
-**5. If reclustering is enabled, The quality score and the name of the best TAD at each clustering Iteration will be in the 'Quality/' folder. They will be represented as follows:
+**5. If reclustering is enabled, The quality score and the name of the best TAD at each clustering Iteration will be in the 'Quality/' folder. They will be represented as follows:**
 
 * Readme_'filename'.txt 		=> ClusterTAD Clustering Iteration 1
 * Readme_Recluster'filename'.txt 	=> ClusterTAD Clustering Iteration 2
