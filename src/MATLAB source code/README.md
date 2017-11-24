@@ -17,7 +17,7 @@ MATLAB Code
 * change variable **"name"** to the Input data name
 * change variable **"chromo"** to the chromosome data name (can be same as Input data name)
 * change variable **"Reso"** to the Input data Resolution		
-* change variable **"Option"** to specify  the  K finding method. if option == 0, use rough estimate and if option == 1, use elbow method (Read about this in our manuscript)
+* change variable **"Option"** to specify  the  K finding method. if option == 0(Recommended), use rough estimate and if option == 1, use elbow method (Read about this in our manuscript)
 * specify the maximum TAD size : change variable "Max_TADsize" (optional)
 
 

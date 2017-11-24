@@ -31,7 +31,7 @@
 
 **2.	Hi-C Data used in this study:**
 -----------------------------------------------------------
-In our study, used the normalized Hi-C  matrix processed by Bing Ren's Lab in University of Calfornia, San Diego. 
+In our study, we used the normalized Hi-C  matrix processed by Bing Ren's Lab in University of Calfornia, San Diego. 
 Download the normalized Matrix here : http://chromosome.sdsc.edu/mouse/hi-c/download.html
 
 
@@ -43,7 +43,7 @@ The input to ClusterTAD is a tab seperated N by N intra-chromosomal contact matr
 **4.	Usage:**
 -----------------------------------------------------------
 **4.1. 	Java:** <br />
-To run the tool type: 	 **java -jar ClusterTAD.jar Input_Matrix_file Matrix_Resolution** 
+To run the tool, open command line interface and type: 	 **java -jar ClusterTAD.jar Input_Matrix_file Matrix_Resolution** 
 
 Parameters are as follow:
  *  **Input_Matrix_file** :  A tab seperated N by N intra-chromosomal Hi-C contact matrix.
@@ -69,7 +69,7 @@ ClusterTAD produces 2 folders in Output folder:
 
 **6. Disclaimer**
 -----------------------------------------------------------
-The executable software and the source code of LorDG is distributed free of charge as it is to any non-commercial users. The authors hold no liabilities to the performance of the program.
+The executable software and the source code of ClusterTAD is distributed free of charge as it is to any non-commercial users. The authors hold no liabilities to the performance of the program.
 
 **7. Citations**
 -----------------------------------------------------------
