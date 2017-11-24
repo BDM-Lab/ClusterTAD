@@ -7,16 +7,16 @@
 
 ----------------------------------------------------------------------
 
-**Developer:** 
-		 Oluwatosin Oluwadare 
-		 Department of Computer Science 
-		 University of Missouri, Columbia 
+**Developer:** <br />
+		 Oluwatosin Oluwadare <br />
+		 Department of Computer Science <br />
+		 University of Missouri, Columbia <br />
 		 Email: oeow39@mail.missouri.edu 
 
-**Contact:** 
-		 Jianlin Cheng, PhD 
-		 Department of Computer Science 
-		 University of Missouri, Columbia 
+**Contact:** <br />
+		 Jianlin Cheng, PhD <br />
+		 Department of Computer Science <br />
+		 University of Missouri, Columbia <br />
 		 Email: chengji@missouri.edu 
 	 
 --------------------------------------------------------------------	
