@@ -362,6 +362,7 @@ public class ClusterTAD {
 		int len = Cluster.length;
 		ArrayList <Integer>Border = new ArrayList<Integer>();
 		System.out.println(String.format("Identify the TADs"));
+		log_outputWriter.write(String.format("Identify the TADs\n"));
 		for (int i=1; i<len;i++) {
 			 if (Cluster[i]!=Cluster[start]) {
 				 Border.add(start);
@@ -421,8 +422,8 @@ public class ClusterTAD {
 		for (int i=0; i<TADlist.size() ;i+=2) {
 			TAD[ind][0] = (int) objects[i];
 			TAD[ind][1] = (int) objects[i+1];
-			System.out.println((String.format("%d	%d	",TAD[ind][0],TAD[ind][1]))); //Recognized as domain = 1
-			log_outputWriter.write((String.format("%d	%d	\n",TAD[ind][0],TAD[ind][1]))); //Recognized as domain = 1
+			System.out.println((String.format("%d	%d	",TAD[ind][0]*Resolution,TAD[ind][1]*Resolution))); //Recognized as domain = 1
+			log_outputWriter.write((String.format("%d	%d	\n",TAD[ind][0]*Resolution,TAD[ind][1]*Resolution))); //Recognized as domain = 1
 			ind++;
 		}
 		return TAD;
@@ -580,6 +581,7 @@ public class ClusterTAD {
 	    
 	    for (int i=0; i<len;i++) {
 	    	System.out.print(String.format("k = %d ->", K));
+	    	log_outputWriter.write(String.format("k = %d ->", K));
 	    	for (int h=0; h<dim ;h++) {
 	    		Cluster[h] = Clusters[h][i];	    	
 	    	}
@@ -587,7 +589,7 @@ public class ClusterTAD {
 	    	Cluster = Order_ClusterNum(Cluster); // return a ordered label
 	    	//-----------------------------------------------------------
 	    	// Extract TAD based on the Order defined   		
-	    	log_outputWriter.write("TAD for Clustering Algorithm\n");
+	    
 	    	TAD = ExtractTAD(Cluster);
 	    	System.out.println(String.format("The Number of TAD = %d", TAD.length));	
 	    	//-----------------------------------------------------------
@@ -598,7 +600,7 @@ public class ClusterTAD {
 	    	}
 	    	TADfile =TADFolder  + "TAD_" + name + "_K="+ namest+String.valueOf(K) +".txt"; //file to hold TAD written to file	   
 		    wt.delete_file(TADfile);
-		    wt.writeMatrix(TADfile,TAD); //write matrix to file
+		    wt.writeTAD(TADfile,TAD,Resolution); //write matrix to file
 		  //-----------------------------------------------------------
 	    	//Find the TAD Quality
 	    	
@@ -698,7 +700,7 @@ public class ClusterTAD {
 	    int size_Data = Data.length;//get the size of new data created
 	    int K  = RoughEstimate(size_Data);		    
 	    //=====Create a Window for Flexibility around K, Hence K = upperLimit = K-10 and Lower Limit =  K + 10
-	    int Kmin = K-window; int Kmax=K+window;
+	    int Kmin = K-1; int Kmax=K+1;
 	    if (Kmin <= 1) { 	   // less than or equal 1
 	    	K = 2;
 	    }
@@ -990,7 +992,7 @@ public class ClusterTAD {
 	    	}
 		    String TADfile =TADFolder  + "BestTAD_" + name + "_K=" + namest  + String.valueOf(Best_K )+".txt"; //file to hold TAD written to file	 	   
 		    wt.delete_file(TADfile);
-		    wt.writeMatrix(TADfile,Best_TAD); //write matrix to file
+		    wt.writeTAD(TADfile,Best_TAD,Resolution); //write matrix to file
 		    System.out.println("=========== Quality Assessment Completed =========");
 		    
 		    System.out.println("=========== ClusterTAD Completed Successfully =========");

@@ -5,7 +5,7 @@ Mean_Pcc = [];
 Mean_diff = [];
 D = 0;
 for  K = Start : End
-    tdname = [out_path,'KM_',num2str(K),'_TAD.txt'];
+    tdname = [out_path,'KM_',num2str(K),'_TAD_BinID.txt'];
 
     TDname = strcat(tdname); % path to recognized domain
     TD = dlmread(TDname);
@@ -76,7 +76,7 @@ for  K = Start : End
     
     if (D < mean(out))
             D =  mean(out);
-            Str = ['KM_',num2str(K),'_TAD.txt'];
+            Str = ['KM_',num2str(K),'_domain.txt'];
      end
 end
 

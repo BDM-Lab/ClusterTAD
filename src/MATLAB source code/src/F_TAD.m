@@ -1,4 +1,4 @@
-function [newB] = F_TAD(Chr_Data, Assign_Cluster, algorithm,nn,Dir )
+function [newB] = F_TAD(Chr_Data, Assign_Cluster, algorithm,nn,Dir,Res )
 count = 1;
 Border = [];
 start = 1;
@@ -45,8 +45,11 @@ end
 
 newB = newB_domain;
 disp(Redefine);
-name = strcat(Dir,algorithm,nn,'_TAD.txt');
+name = strcat(Dir,algorithm,nn,'_TAD_BinID.txt');
+
 dlmwrite(name,newB); 
+
+OutputTAD;              % write domain to file
 for i = 1:length(newB(:,1))
      hold on;
      Start = newB(i,1);

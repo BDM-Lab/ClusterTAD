@@ -1,6 +1,6 @@
 %%========================================================================
  % Implementation of ClusterTAD algorithm
- %  Language: Java
+ %  Language: MATLAB
 	
  %	@author: Oluwatosin Oluwadare 
  %	Department of Computer Science
@@ -9,7 +9,7 @@
  %	USA	
  %	email: 	oeow39@mail.missouri.edu
 	
- %	Last Update: 11/2/2017
+ %	Last Update: 12/6/2017
 	
  %	Instructions: https://github.com/BDM-Lab/ClusterTAD
 
@@ -31,11 +31,13 @@ warning('off','all');
 %  ============================================================================================
 filepath='data\';          % filepath
 
-name='30x30_data.txt';          % filename
+name= '30x30_data.txt';          % filename
 
-chromo = '30x30_data.txt';      % chromosome name
+chromo = 'chr';             % chromosome name
 
-Res = 40;                  % 40 = 40KB , 100 = 100KB
+Res = 40000;                  % 40000 = 40KB , 100000 = 100KB
+
+KB = 1000;                    % KB = 1000 :: Constant
 
 Option = 0;                % Option: if option == 0, use rough estimate and if option == 1, use elbow method
 
@@ -45,7 +47,7 @@ outputfolder_name = 'data_Results';
 
 algorithm = 'KM';          % algorithm used code: KM == Kmeans Algorithm
 %  ============================================================================================
-Resolution=[num2str(Res),'kb'];
+Resolution=[num2str(Res/KB),'kb'];
 filename = strcat(filepath,name);
 Chr_Data = dlmread(filename); 
 

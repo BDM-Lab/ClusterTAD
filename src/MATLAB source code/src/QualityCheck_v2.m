@@ -6,7 +6,7 @@ Mean_diff = [];
 D = 0;
 for k = Start:End   
         for Ind = 1:2
-        tdname = [out_path,'KM_',num2str(k),'.',num2str(Ind),'_TAD.txt'];
+        tdname = [out_path,'KM_',num2str(k),'.',num2str(Ind),'_TAD_BinID.txt'];
 
     TDname = strcat(tdname); % path to recognized domain
     TD = dlmread(TDname);
@@ -70,7 +70,7 @@ for k = Start:End
     Mean_diff = [ Mean_diff;mean(out)];
      if (D < mean(out))
             D =  mean(out);
-            Str = ['KM_',num2str(k),'.',num2str(Ind),'_TAD.txt'];
+            Str = ['KM_',num2str(k),'.',num2str(Ind),'_domain.txt'];
      end
         end
 end

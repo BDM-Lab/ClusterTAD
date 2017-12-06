@@ -10,7 +10,7 @@ fprintf('-----------------------------------------------------------------\n');
 N_cluster = I(1:first_len); 
 
 for i = 1:length(N_cluster )
-    X  = B(i) * Res; % minimum is approximately 200kb
+    X  = B(i) * (Res/KB); % minimum is approximately 200kb
     if (X < 600)
         break;
     end

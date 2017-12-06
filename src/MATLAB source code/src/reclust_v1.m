@@ -10,7 +10,7 @@ fprintf('-----------------------------------------------------------------\n');
 N_cluster = I(1:first_len); 
 
 for i = 1:length(N_cluster )
-    X  = B(i) * Res; 
+    X  = B(i) * (Res/KB); 
     
     if(i < Half_len && X < Max_TADsize)        
       New_cluster_1 = zeros(Limit,1);

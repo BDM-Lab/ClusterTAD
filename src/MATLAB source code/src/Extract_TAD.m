@@ -14,7 +14,7 @@ figure;
 n = size(Chr_Data,1); % specify the size of matrix to display :::default
 % n = 100;
 Visualize(log(Chr_Data(1:n,1:n)));
-newB = F_TAD(Chr_Data(1:n,1:n), Assign_Cluster, algorithm, nn,out_path );
+newB = F_TAD(Chr_Data(1:n,1:n), Assign_Cluster, algorithm, nn,out_path,Res );
 avg_size = (sum(newB(:,2))- sum(newB(:,1)))/size(newB,1);
 fprintf('Average size = %f\n',avg_size);
 diary off;
