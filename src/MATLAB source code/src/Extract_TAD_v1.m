@@ -18,7 +18,7 @@ newB = F_TAD(Chr_Data(1:n,1:n), Assign_Cluster, algorithm, nn,out_path ,Res );
 avg_size = (sum(newB(:,2))- sum(newB(:,1)))/size(newB,1);
 fprintf('Average size = %f\n',avg_size);
 diary off;
-close;
+%close;
 Q = [length(newB(:,1)) avg_size]; % Number of TD, Average size of TD
 title_text = sprintf('TD for %s Implementation',algorithm);
 title(title_text)
