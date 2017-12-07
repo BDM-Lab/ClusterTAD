@@ -94,6 +94,10 @@ end
     fprintf(fid, msg');
     fclose(fid);
 
+	if (D >MaxQuality)
+       MaxQuality=  D;       
+       Outputmsg = ['The name of Best TAD identified Can be found Here:' readme '\n' 'Recommended TAD = ', Str,' with value ',num2str(D) '\n'];
+    end
 
 
 

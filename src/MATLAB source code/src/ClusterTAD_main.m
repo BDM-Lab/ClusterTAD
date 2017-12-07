@@ -29,6 +29,8 @@ warning('off','all');
 %	specify the maximum TAD size : change variable "Max_TADsize" (optional)
 
 %  ============================================================================================
+MaxQuality = 0;			   % Get the Maximum TAD Quality
+
 filepath='data\';          % filepath
 
 name= '30x30_data.txt';          % filename
@@ -270,6 +272,6 @@ Recluster_v1;
 % Recluster_v2;  
 disp('===================== Re-Clustering Completed =============================');
 disp('find the results of the Quality Assessment in the Quality/ directory');
-disp( msg);
+fprintf( Outputmsg);
 disp('Find the TADs identified in the TAD/ directory');
 disp('===================== ClusterTAD Completed =============================');
