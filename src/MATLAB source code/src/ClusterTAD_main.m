@@ -41,7 +41,7 @@ KB = 1000;                    % KB = 1000 :: Constant
 
 Option = 0;                % Option: if option == 0, use rough estimate and if option == 1, use elbow method
 
-Max_TADsize = 800;          % Maximum TAD size: 800KB
+Max_TADsize = 800000;          % Maximum TAD size: 800KB
 
 outputfolder_name = 'data_Results';
 
