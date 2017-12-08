@@ -36,7 +36,7 @@ public class ClusterTAD {
 	static BufferedWriter log_outputWriter = null;
 	public static ArrayList <Integer> ZeroRows= null;	
 	public static int [][] Best_TAD = null;
-	public static double Best_Qscore = -100;	
+	public static double Best_Qscore = -Integer.MAX_VALUE;
 	public static  int Best_K = 0;	
 	public static double [][] Feat = new double[nRegion][];
 	public static int status = 0;
