@@ -1,2 +1,3 @@
-0	7	
-8	29	
+from.id	from.cord	to.id	to.cord
+0	0	7	280000
+8	320000	29	1160000
