@@ -75,9 +75,9 @@ The executable software and the source code of ClusterTAD is distributed free of
 -----------------------------------------------------------
 Oluwadare, Oluwatosin, and Jianlin Cheng. "ClusterTAD: an unsupervised machine learning approach to detecting topologically associated domains of chromosomes from Hi-C data." BMC bioinformatics 18.1 (2017): 480.
 
-**7. Common questions**
+**8. Common questions**
 -----------------------------------------------------------
-**7.1. 	What is the format of the domain output genererated?**
+**8.1. 	What is the format of the domain output genererated?**
 
 The domain extracted in ClusterTAD are presented in the format **_from.id	from.cord	to.id	to.cord_** where:
  *  **from.id** :  start bin id for a domain.
