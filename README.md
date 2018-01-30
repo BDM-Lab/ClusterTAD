@@ -23,7 +23,7 @@
 
 **1.	Content of folders:**
 -----------------------------------------------------------	
-* bin: contains Java executable file 
+* **executable**: latest version can be found in the release tab
 * examples: contains example data and outputs generated from ClusterTAD for these datasets 
 * src: ClusterTAD **Java** and **MATLAB** source codes
 * TADs: contains identified topological domains for two mESC and mouse cortex cell type using ClusterTAD
