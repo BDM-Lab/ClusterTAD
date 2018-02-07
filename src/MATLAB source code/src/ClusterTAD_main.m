@@ -3,13 +3,13 @@
  %  Language: MATLAB
 	
  %	@author: Oluwatosin Oluwadare 
- %	Department of Computer Science
+ %	Department of Electrical Engineering and Computer Science
  %	University of Missouri, Columbia
  %	Columbia
  %	USA	
  %	email: 	oeow39@mail.missouri.edu
 	
- %	Last Update: 12/6/2017
+ %	Last Update: 2/7/2018
 	
  %	Instructions: https://github.com/BDM-Lab/ClusterTAD
 
